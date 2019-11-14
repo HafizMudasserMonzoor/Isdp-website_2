@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>کورس</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" type="text/css" href="Style.css">
+<link rel="stylesheet" type="text/css" href="Stylesheet.css">
+<style>
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: #ff1a75;
+}
+
+.topnav a {
+  float: right;
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 16px 18px;
+  text-decoration: none;
+  font-size: 25px;
+}
+
+.topnav a:hover {
+  background-color: white;
+  color: lime;
+}
+
+.topnav a.active {
+  background-color: #ffff00;
+  color: red;
+}
+
+.topnav .icon {
+  display: none;
+}
+
+@media screen and (max-width: 600px) {
+  .topnav a:not(:first-child) {display: none;}
+  .topnav a.icon {
+    float: right;
+    display: block;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .topnav.responsive {position: relative;}
+  .topnav.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+}
+#d{
+	font-family:Jameel Noori Nastaleeq;
+}
+#h1{
+	padding-top:50px;
+	padding-right:20px;
+	padding-bottom:0px;
+	padding-left:0px;
+	margin:0px;
+	text-align:center;
+	font-size:100px;
+	font-family:Jameel Noori Nastaleeq;
+}
+
+
+</style>
+</head>
+<body style="background-color:#80ff80;font-family:Jameel Noori Nastaleeq">
+
+<div class="topnav" id="myTopnav">
+  <a href="#home" class="active" id="d">معلومات</a>
+  <a href="#about" id="d"><a href="Urdu shrohat.html">اردو شروحات</a>  
+  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <i class="fa fa-bars"></i>
+  </a>
+</div>
+
+
+<script>
+function myFunction() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "topnav") {
+    x.className += " responsive";
+  } else {
+    x.className = "topnav";
+  }
+}
+
+</script>
+
+<h1 id="l"><span style="color:#ffff00">علومِ شرعیہ کورس</h1></span>

@@ -1,0 +1,56 @@
+
+
+
+#p {
+	text-align: justify;
+
+direction:rtl;
+color:blue;
+font-family:Jameel Noori Nastaleeq;
+font-size:30px;
+padding-right:150px
+}
+
+#b {
+direction:rtl;
+color:black;
+font-family:Jameel Noori Nastaleeq;
+font-size:40px;
+padding-right:150px
+
+}
+
+#a {
+direction:right;
+color:blue;
+font-family:Jameel Noori Nastaleeq;
+font-size:30px;
+padding-right:100px
+
+}
+
+#m {
+direction:rtl;
+color:blue;
+
+font-size:30px;
+padding-right:100px
+
+}
+#a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+#g {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+	
