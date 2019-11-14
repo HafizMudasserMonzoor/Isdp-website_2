@@ -29,8 +29,8 @@ text-align: justify;
 color:blue;
 font-family:Jameel Noori Nastaleeq;
 font-size:30px;
-border: dotted;
-padding-right:25px;
+border-style: dotted;
+padding-right:5px;
 margin:30px;
 }
 #h1{
