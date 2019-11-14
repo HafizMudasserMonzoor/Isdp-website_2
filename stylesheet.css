@@ -23,7 +23,7 @@ text-align:center;
   width: 50%;
 }
 
-p {
+#p {
 direction:rtl;
 text-align: justify;
 color:blue;
@@ -33,18 +33,15 @@ border: dotted;
 padding-right:25px;
 margin:30px;
 }
-h1{
-	text-align:center;color:red;font-size:40px;
-	
+#h1{
+	text-align:center;
+	color:red;
+	font-size:40px;
 }
 
-h2{
-	text-align:right ; color:red; font-size:30px; margin:30px;
-	
-
-}
-
-{
-  border: dotted;
- 
+#h2{
+	text-align:right;
+	color:red;
+	font-size:30px;
+	margin:30px;
 }
